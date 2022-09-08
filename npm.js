@@ -38,6 +38,10 @@
 // all the dependencies code is present in the node_modules folder that is created on its own.
 
 
+// external modules are not commited to git.
+// here is the magic , when i clone a repo and run npm install , it actually takes help of package.json file to know what folders are needed 
+// for project steup.
+
 // Just for practise
 
 const _ = require('lodash')
